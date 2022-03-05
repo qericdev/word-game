@@ -1,0 +1,1327 @@
+
+
+/* xxxxxxxxxxxxxxxxxxxxxx Navbar xxxxxxxxxxxxxxxxxxxxxx */
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title > img {
+    width: 45px;
+}
+
+.title > img:hover {
+    animation-name: title--logo;
+    animation-duration: 2000ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes title--logo {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.navbar > h1 {
+    font-family: Maven Pro;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25.6413px;
+    line-height: 30px;
+    color: #2E2E2E;
+}
+
+.twitter:hover {
+    cursor: pointer;
+    animation-name: twitter--animation;
+    animation-duration: 2000ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes twitter--animation {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.menu--img:hover {
+    cursor: pointer;
+    animation-name: menu--animation;
+    animation-duration: 2000ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes menu--animation {
+    100% {
+        transform: scale(1.05);
+    }
+}
+
+
+.menuOne > ul {
+    display: none;
+    position: absolute;
+    text-align: left;
+    list-style-type:none;
+    padding: 0;
+    margin: 0;
+    width: 80px;
+}
+
+
+.menuOne:hover > ul {
+    display:block;
+    border: 2px solid #767676;
+    border-radius: 5px;
+}
+
+.menuOne:hover > ul > li {
+    font-family: Overpass;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #263238;
+    margin-bottom: 0px;
+}
+
+.menuOne:hover > ul > li:hover {
+    background-color: #767676;
+    color: white;
+    cursor: pointer;
+}
+
+.link {
+    font-family: Overpass;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #263238;
+    margin-bottom: 0px;
+    text-decoration: none;
+    
+}
+
+.link:hover {
+    background-color: #767676;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxx Hero xxxxxxxxxxxxxxxxxxxxxx */
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin: 0;
+}
+
+.hero--left {
+    width: 559px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.hero--left > h1 {
+    font-family: Overpass;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 61px;
+    color: #263238;
+    margin-bottom: 0px;
+}
+
+.hero--left > p {
+    font-family: Overpass;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #767676;
+    margin-top: 27px;
+    margin-bottom: 0px;
+}
+
+.hero--left > div > a > button {
+    width: 241px;
+    height:58px;
+    background: #27AE60;
+    border-radius: 55px;
+    font-family: Overpass;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+    border:none;
+    margin-top: 88px;
+    margin-left: 20px;
+}
+
+.hero--left > div > a > button:hover {
+    cursor: pointer;
+    animation-name: button--animation;
+    animation-duration: 2000ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes button--animation {
+    100% {
+        background-color: #263238;
+    }
+}
+
+#playbutton {
+    width: 241px;
+    height:58px;
+    background: #263238;
+    border-radius: 55px;
+    font-family: Overpass;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+    border:none;
+    margin-top: 88px;
+}
+
+#playbutton:hover {
+    cursor: pointer;
+    animation-name: playbutton--animation;
+    animation-duration: 2000ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes playbutton--animation {
+    100% {
+        background-color: #27AE60;
+    }
+}
+
+.hero--right > img {
+    width: 580px;
+    height: 580px;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxx Feature xxxxxxxxxxxxxxxxxxxxxx */
+
+.hero--feature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin: 0;
+    background: url('./images/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+ 
+}
+
+.feature--right {
+    width: 559px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.feature--right > h1 {
+    font-family: Overpass;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 61px;
+    color: #263238;
+    margin-bottom: 0px;
+}
+
+.feature--right > p {
+    font-family: Overpass;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #767676;
+    margin-top: 27px;
+    margin-bottom: 0px;
+
+}
+
+.feature--right > div > a > button {
+    width: 241px;
+    height:58px;
+    background: #27AE60;
+    border-radius: 55px;
+    font-family: Overpass;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+    border:none;
+    margin-top: 88px;
+    margin-left: 20px;
+}
+
+.feature--right > div > a > button:hover {
+    cursor: pointer;
+    animation-name: button--animation;
+    animation-duration: 2000ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes button--animation {
+    100% {
+        background-color: #263238;
+    }
+}
+
+#playbutton {
+    width: 241px;
+    height:58px;
+    background: #263238;
+    border-radius: 55px;
+    font-family: Overpass;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+    border:none;
+    margin-top: 88px;
+}
+
+#playbutton:hover {
+    cursor: pointer;
+    animation-name: playbutton--animation;
+    animation-duration: 2000ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes playbutton--animation {
+    100% {
+        background-color: #27AE60;
+    }
+}
+
+.feature--left {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 559px;
+
+}
+
+.feature--left > img {
+    width: 69%;
+    margin: 0;
+    padding: 0;
+  
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxx Game xxxxxxxxxxxxxxxxxxxxxx */
+
+body {
+    margin: 0;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxx Game.js xxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+.app {
+    background: url('./images/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxx Menu.js xxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 638px;
+    height: 64px;
+    background-color: #F3F3F3;
+    border-radius: 15px;
+    margin: 10px auto 0 auto;
+}
+
+.menu--help {
+    margin-left: 22px;
+} 
+
+.menu--help:hover {
+    cursor: pointer;
+}
+
+.menu--title {
+    color: #202537;
+    margin-left: 149px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 47px;
+    letter-spacing: 0.075em;
+    
+
+}
+
+.menu--statistic {
+    margin-left: 99px;
+}
+
+.menu--statistic:hover {
+    cursor: pointer;
+}
+
+.menu--config {
+    margin-left: 25px;
+}
+
+.menu--config:hover {
+    cursor: pointer;
+}
+
+.statistics {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    margin-top: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+    right: 0;
+    left: 0;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 5px 5px #888888;
+}
+
+.help {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    margin-top: 80vh;
+    margin-left: auto;
+    margin-right: auto;
+    right: 0;
+    left: 0;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    width: 380px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px #888888;
+    
+}
+
+.help > p {
+    justify-content: left;
+    text-align: justify;
+    font-size: 14px;
+    margin-top: -5px;
+}
+
+.menu--img {
+    width: 170px;
+}
+
+.close {
+    position: absolute;
+    width: 25px;
+    right: 2%;
+    top: 2%;
+}
+
+.close:hover {
+    cursor: pointer;
+}
+
+.close--statistics {
+    position: absolute;
+    width: 25px;
+    right: 5%;
+    top: 8%;
+}
+
+.close--statistics:hover {
+    cursor: pointer;
+}
+
+.wordlecoin {
+    width: 42px;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxx Box.js xxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+.board {
+    display: grid;
+    width: 307px;
+    margin: 12px auto 0px auto;
+    grid-template-columns: 55px 55px 55px 55px 55px;
+    grid-template-rows: 55px 55px 55px 55px 55px 55px;
+    grid-gap: 8px;
+}
+
+.board > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(147, 155, 159, 0.3);
+    border-radius: 5px;
+    color: #202537;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 47px;
+    letter-spacing: 0.075em;
+}
+
+.alert {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    width: 150px;
+    height: 40px;
+    
+    border-radius: 7px;
+    animation-name: disappear;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes disappear{
+    
+    100% {
+        background-color: transparent;
+        color: transparent;
+    }
+}
+
+
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxx Keyboard.js xxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+.keyboard {
+    height: 189px;
+}
+
+.keyboard--firstrow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 533px;
+    margin: 12px auto 9px auto;
+}
+
+.keyboard--firstrow > div {
+    width: 45px;
+    height: 51px;
+    background-color: #D3D6DA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #56575E;
+}
+
+.keyboard--firstrow > div:hover {
+    cursor: pointer;
+}
+
+.keyboard--secondrow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 479px;
+    margin: 0px auto 9px auto;
+}
+
+.keyboard--secondrow > div {
+    width: 45px;
+    height: 51px;
+    background-color: #D3D6DA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #56575E;
+}
+
+.keyboard--secondrow > div:hover {
+    cursor: pointer;
+}
+
+.keyboard--thirdrow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 533px;
+    margin: 0px auto 0px auto;
+}
+
+.keyboard--thirdrow > div {
+    width: 45px;
+    height: 51px;
+    background-color: #D3D6DA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #56575E;
+}
+
+.keyboard--thirdrow > div:hover {
+    cursor: pointer;
+}
+
+.keyboard--thirdrow--largediv {
+    width: 72px !important;
+}
+
+
+
+
+
+/****************************************
+*****************************************
+
+<------------ MEDIA QUERY -------------->
+
+*****************************************
+****************************************/
+
+@media only screen and (max-width:600px) {
+
+    body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+    }
+    
+    .app--principal {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    /* xxxxxxxxxxxxxxxxxxxxxx Navbar xxxxxxxxxxxxxxxxxxxxxx */
+    
+    .navbar {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 10px auto 0 auto;
+        padding: 0;
+        width: 95%;
+        
+    }
+    
+    .title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .title > img {
+        width: 45px;
+    }
+    
+    .title > img:hover {
+        animation-name: title--logo;
+        animation-duration: 2000ms;
+        animation-fill-mode: forwards;
+    }
+    
+    @keyframes title--logo {
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+    
+    .navbar > h1 {
+        font-family: Maven Pro;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 20px;
+        color: #2E2E2E;
+    }
+
+    .twitter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+    
+    .twitter:hover {
+        cursor: pointer;
+        animation-name: twitter--animation;
+        animation-duration: 2000ms;
+        animation-fill-mode: forwards;
+    }
+    
+    @keyframes twitter--animation {
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+
+    .menuOne--img:hover {
+        cursor: pointer;
+        animation-name: menu--animation;
+        animation-duration: 2000ms;
+        animation-fill-mode: forwards;
+    }
+    
+    @keyframes menu--animation {
+        100% {
+            transform: scale(1.05);
+        }
+    }
+    
+    .menuOne > ul {
+        display: none;
+        position: absolute;
+        text-align: left;
+        list-style-type:none;
+        padding: 0;
+        margin: 0;
+        width: 80px;
+    }
+    
+    .menuOne:hover > ul {
+        display:block;
+        margin-left: -45px;
+        border: 2px solid #767676;
+        border-radius: 5px;
+    }
+    .menuOne:hover > ul > li {
+        
+        font-family: Overpass;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 25px;
+        color: #263238;
+        margin-bottom: 0px;
+        
+    }
+    
+    .menuOne:hover > ul > li:hover {
+        
+        background-color: #767676;
+        color: white;
+        cursor: pointer;
+    }
+
+    /* xxxxxxxxxxxxxxxxxxxxxx Hero xxxxxxxxxxxxxxxxxxxxxx */
+    
+    .hero {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25px;
+    }
+    
+
+    .hero--left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    
+    .hero--left > h1 {
+        font-family: Overpass;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 61px;
+        color: #263238;
+        margin-bottom: 0px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .hero--left > p {
+        font-family: Overpass;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 30px;
+        width: 70%;
+        color: #767676;
+        margin-top: 27px;
+        margin-bottom: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+        text-align: center;
+        margin-top: 5px;
+        
+    }
+
+    .buttons {
+        display: flex;
+        align-items:center;
+        flex-direction: column;
+    }
+
+
+    .hero--left > div> a {
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        text-decoration: none;
+    }
+    
+    .hero--left > div > a > button {
+        width: 241px;
+        height:58px;
+        background: #27AE60;
+        border-radius: 55px;
+        font-family: Overpass;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 30px;
+        color: #FFFFFF;
+        border:none;
+        margin-top: 35px;
+        margin-bottom: -70px;
+    }
+
+    .hero--left > div > a > button:hover {
+        cursor: pointer;
+        animation-name: button--animation;
+        animation-duration: 2000ms;
+        animation-fill-mode: forwards;
+    }
+    
+    @keyframes button--animation {
+        100% {
+            background-color: #263238;
+        }
+    }
+    
+    .hero--right > img {
+        display: none;
+        width: 580px;
+        height: 580px;
+    }
+
+    /* xxxxxxxxxxxxxxxxxxxxxx Feature xxxxxxxxxxxxxxxxxxxxxx */
+
+.hero--feature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    background: url('./images/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.feature--right {
+    width: 80%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.feature--right > h1 {
+    font-family: Overpass;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 61px;
+    color: #263238;
+    margin-bottom: 0px;
+    display: block;
+    text-align: center;
+}
+
+.feature--right > p {
+    font-family: Overpass;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #767676;
+    margin-top: 27px;
+    margin-bottom: 0px;
+    display: block;
+    text-align: center;
+
+}
+
+.feature--right > div > a > button {
+    width: 241px;
+    height:58px;
+    background: #27AE60;
+    border-radius: 55px;
+    font-family: Overpass;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+    border:none;
+    margin-top: 10px;
+}
+
+.feature--right > div > a > button:hover {
+    cursor: pointer;
+    animation-name: button--animation;
+    animation-duration: 2000ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes button--animation {
+    100% {
+        background-color: #263238;
+    }
+}
+
+#playbutton {
+    width: 241px;
+    height:58px;
+    background: #263238;
+    border-radius: 55px;
+    font-family: Overpass;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+    border:none;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    
+}
+
+#playbutton:hover {
+    cursor: pointer;
+    animation-name: playbutton--animation;
+    animation-duration: 2000ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes playbutton--animation {
+    100% {
+        background-color: #27AE60;
+    }
+}
+
+#playbutton--feature {
+    width: 241px;
+    height:58px;
+    background: #263238;
+    border-radius: 55px;
+    font-family: Overpass;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+    border:none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+#playbutton--feature:hover {
+    cursor: pointer;
+    animation-name: playbutton--feature--animation;
+    animation-duration: 2000ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes playbutton--feature--animation {
+    100% {
+        background-color: #27AE60;
+    }
+}
+
+.feature--left {
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 0;
+    padding: 0;
+}
+
+.feature--left > img {
+    width: 69%;
+    margin: 0;
+    padding: 0;
+}
+
+    /* xxxxxxxxxxxxxxxxxxxxxxxxxxxx Menu.js xxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.app {
+    background: url('./images/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 64px;
+    background-color: #F3F3F3;
+    margin: 0 auto;
+}
+
+.menu--help {
+    margin: 0;
+    
+    padding-right: 35px;
+} 
+
+.menu--help:hover {
+    cursor: pointer;
+}
+
+.menu--title {
+    color: #202537;
+    margin: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 47px;
+    letter-spacing: 0.075em;
+}
+
+.menu--statistic {
+    margin: 0;
+
+    
+}
+
+.menu--statistic:hover {
+    cursor: pointer;
+}
+
+.menu--config {
+    margin-left: 25px;
+    margin: 0;
+
+}
+
+.menu--config:hover {
+    cursor: pointer;
+}
+
+.statistics {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    margin-top: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+    right: 0;
+    left: 0;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px #888888;
+    width: 90vw;
+}
+
+.help {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    margin-top: 95vh;
+    margin-left: auto;
+    margin-right: auto;
+    right: 0;
+    left: 0;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    border-radius: 10px;
+    box-shadow: 5px 5px #888888;
+    width: 80vw;
+    
+}
+
+.help > p {
+    justify-content: left;
+    text-align: justify;
+    font-size: 14px;
+    margin-top: -5px;
+}
+
+.menu--img {
+    width: 170px;
+}
+
+.close {
+    position: absolute;
+    width: 25px;
+    right: 2%;
+    top: 2%;
+}
+
+.close:hover {
+    cursor: pointer;
+}
+
+.close--statistics {
+    position: absolute;
+    width: 25px;
+    right: 5%;
+    top: 8%;
+}
+
+.close--statistics:hover {
+    cursor: pointer;
+}
+
+.wordlecoin {
+    width: 42px;
+}
+
+
+/** -----   Board ------ **/
+
+    .box--cell {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+      
+    }
+
+    .board {
+        display: grid;
+        margin: 40px auto 0px auto;
+        padding: 0;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 60px 60px 60px 60px 60px 60px;
+        grid-gap: 5px;
+       
+    }
+
+    .board > div {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(147, 155, 159, 0.3);
+        border-radius: 5px;
+        color: #202537;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 47px;
+    
+    }
+
+    
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxx Keyboard.js xxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+.keyboard {
+    height: 150px;
+
+}
+
+.keyboard--firstrow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 8px auto 2px auto;
+}
+
+.keyboard--firstrow > div {
+    width: 1fr;
+    margin: 2px;
+    height: 45px;
+    background-color: #D3D6DA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #56575E;
+}
+
+.keyboard--firstrow > div:hover {
+    cursor: pointer;
+}
+
+.keyboard--secondrow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0px auto 2px auto;
+}
+
+.keyboard--secondrow > div {
+    width: 1fr;
+    height: 45px;
+    margin: 2px;
+    background-color: #D3D6DA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #56575E;
+}
+
+.keyboard--secondrow > div:hover {
+    cursor: pointer;
+}
+
+.keyboard--thirdrow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0px auto 0px auto;
+}
+
+.keyboard--thirdrow > div {
+    width: 1fr;
+    height: 45px;
+    margin: 2px;
+    background-color: #D3D6DA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #56575E;
+}
+
+.keyboard--thirdrow > div:hover {
+    cursor: pointer;
+}
+
+.keyboard--thirdrow--largediv {
+    width: 72px !important;
+}
+
+
+/* Final Section */
+}
+
